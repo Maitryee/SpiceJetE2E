@@ -1,0 +1,12 @@
+Select is actually an ordinary class, so its object is also created by the keyword New and also specifies the
+location of the web element.
+Syntax:
+Select oSelect = new Select();
+Select select = new Select(WebElement webelement);
+
+It will throw up an error asking to add arguments to the command. So specify the web element location using the
+element locators.
+It clearly states that Select is asking for an element type object for its constructor.
+After this, once you get the object of the SELECT Class, you can access all the methods that resides in the SELECT
+class by typing oSelect + dot which will provide all the methods under the Select class. Choose any method according
+to your test case.
